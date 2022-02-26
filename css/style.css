@@ -2,17 +2,20 @@ body {
 
 text-align: center;
 background: #1c1c1c;
-  margin: auto;
+
+}
+.convert{
+margin-left: 30%;
+margin-top: 5%;
 }
 
 /* upper part */
 
 #upper{
-position: absolute;
+position: relative;
 width: 550px;
 height: 260px;
-left: 500px;
-top: 100px;
+
 
 background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
 }
@@ -62,11 +65,9 @@ color: #FFFFFF;
 
 /* lower part */
 #lower{
-position: absolute;
+position: relative;
 width: 550px;
 height: 260px;
-left: 500px;
-top: 360px;
 
 background: #FBF7EE;;
 }
